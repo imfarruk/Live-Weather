@@ -25,7 +25,6 @@ const LiveWeatherSearch = () => {
         <div className="search">
           <input
             type="search"
-          
             onChange={(event) => {
               setSearch(event.target.value);
             }}
@@ -53,9 +52,9 @@ const LiveWeatherSearch = () => {
             </h3>
           </div>
         )}
-       
+
         <div className="wave1"></div>
-        <div className="wave2"></div>+  
+        <div className="wave2"></div>
         <div className="ballBounce"></div>
         <div className="ballBounce1"></div>
         <div className="ballBounce2"></div>
